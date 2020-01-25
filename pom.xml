@@ -68,13 +68,13 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-			<plugin>
+			<!-- <plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.0</version>
 				<configuration>
 					<!-- replace `anupbhagwat7` with your docker id-->
-					<repository>anupbhagwat7/spring-data-jpa-docker</repository>
+					<!--<repository>anupbhagwat7/spring-data-jpa-docker</repository>
 					<tag>${project.version}</tag>
 					<buildArgs>
 						<JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
@@ -90,7 +90,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 			
 		</plugins>
 
